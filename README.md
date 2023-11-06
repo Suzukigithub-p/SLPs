@@ -1,6 +1,6 @@
-# SLP(SpotifyLargePlaylists)
+# SLPs(SpotifyLargePlaylists)
 
-"SLP(SpotifyLargePlaylists)" is a program to create large-scale playlists with Python.
+"SLPs(SpotifyLargePlaylists)" is a program to create large-scale playlists with Python.
 
 # Requirement
 
@@ -17,10 +17,32 @@ pip install spotipy
 
 # Usage
 
-Please create python code named "main.py".
+Please run python code named "main.py" and enter query.
 
 ```bash
-python main.py {user_name} {client_ID} {client_secret}
+python main.py {user_name} {client_ID} {client_secret}　{search_limit}
+```
+
+If you want to finish it,please enter 'exit'.
+
+
+# Example
+```bash
+$ python main.py {user_name} {client_ID} {client_secret}　20
+Enter a title to create a playlist associated with it: 
+$ Neurofunk
+start to get tracks...
+Get tracks from 5 playlists 
+...
+Get tracks from 20 playlists 
+start to create playlist...
+playlist size:9550
+Add 1000 tracks 
+...
+Add 9000 tracks 
+finnish to create Neurofunk2023-11-06
+Enter a title to create a playlist associated with it: 
+$ exit
 ```
 
 # Note
